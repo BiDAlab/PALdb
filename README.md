@@ -14,8 +14,7 @@ The Public Affairs Document (PAL) database is a large dataset of public affairs 
 
 Figure 1 illustrates some the coordinate system of the database, and the previous positional features
 
-![](https://github.com/BiDAlab/PALdb/data/PALdb-LAYOUT-SC.png)
-
+![](https://github.com/BiDAlab/PALdb/blob/master/data/PALdb-LAYOUT-SC.png)
 **Figura 1. Coordinate system and positional features. Color codes for the annotations are gren for Identifier, cyan for Summary, pink for Title, and black for Body.**
 
 Furthermore, based on the information obtained with the PDFMiners from the text blocks, we defined the following handcrafted text features:
@@ -58,9 +57,6 @@ More details can be foun in our paper [``Document Layout Annotation: Database an
  
 
 5) For more information, please contact: **atvs@uam.es**
-
-
-## DESCRIPTION OF PALdb DATABASE
 
   
 #### REFERENCES
