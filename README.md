@@ -1,4 +1,4 @@
-# PALdb:
+# PALdb
 
 The Public Affairs Document (PAL) database is a large dataset of public affairs documents, of which the layout is annotated with bounding boxes, and handcrafted features were extracted for each individual layout component. The source of the documents are 24 data sources from the Spanish Administration. The database contains annotations for 4 different layout components: 1) *Table*, 2) *Image*, 3) *Link*, and 4) *Text block*. Furthermore, text block were classified into one among four different semantic classes: 1) *Identifier*, 2) *Summary*, 3) *Title*, and 4) *Body Text*. Layout components were extracted using two different PDFMiners, [PyMuPDF](https://pymupdf.readthedocs.io/en/latest/) and [Camelot](https://pypi.org/project/camelot-py/). For each layout component, we extracted the following features:
 
@@ -14,7 +14,7 @@ The Public Affairs Document (PAL) database is a large dataset of public affairs 
 
 Figure 1 illustrates some the coordinate system of the database, and the previous positional features
 
-![](https://github.com/BiDAlab/PALdb/data/images/PALdb-LAYOUT-SC.png)
+![](https://github.com/BiDAlab/PALdb/data/PALdb-LAYOUT-SC.png)
 
 **Figura 1. Coordinate system and positional features. Color codes for the annotations are gren for Identifier, cyan for Summary, pink for Title, and black for Body.**
 
