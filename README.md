@@ -33,7 +33,7 @@ Furthermore, based on the information obtained with the PDFMiners from the text 
 
 - **Size**: Average font size of the text block.
 
-The previous feature names are the keys for each attribute within the annotation files. We also define a layout **Label** attribute, with the annotations considering the semantic classes defined (0 for *Table*, 1 for *Image*, 2 for *Link*, 3 for *Identifier*, 4 for *Summary*, 5 for *Title*, and 6 for *Body Text*). The use of the **Block** attribute or **Label** attribute as annotation depends on wheter you want to use the semantic text classes defined.
+The previous feature names are the keys for each attribute within the annotation files. We also define a layout **Label** attribute, with the annotations considering the semantic classes defined (0 for *Table*, 1 for *Image*, 2 for *Link*, 3 for *Identifier*, 4 for *Summary*, 5 for *Title*, and 6 for *Body Text*). The use of the **Label** attribute or the **Block** attribute as annotation depends on whether you want to use the semantic text classes defined in PAL or not
 
 PAL is divided into a train and a valiation set. Text labels for the validation set were all validated by human supervisors. Text labels for the train set were obtained using Random Forests models trained on the validation set.
 
